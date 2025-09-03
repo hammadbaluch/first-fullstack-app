@@ -1,0 +1,14 @@
+body{
+    background-color: #000;
+}
+h1{
+    color: wheat;
+}
+
+input{
+    color: #000;
+    border: none;
+    outline: none;
+    padding: 20px 100px;
+    margin: 100px 20px;
+}

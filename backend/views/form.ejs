@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I'm Form</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <h1>I'm the great <%=username%></h1>
+    <form action="/todo/add" method="post">
+        <input type="text" name="data" placeholder="type Text" class="input1">
+        <input type="number" name="number" placeholder="type Number">
+        <input type="submit" value="submit">
+    </form>
+</body>
+</html>
