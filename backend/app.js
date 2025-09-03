@@ -27,3 +27,8 @@ app.use('/products', products)
 
 // const PORT = process.env.PORT || 4000;
 // app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
+
+// ❌ REMOVE app.listen()
+// ✅ Instead, export the app
+
+module.exports = app;
