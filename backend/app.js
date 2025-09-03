@@ -25,5 +25,5 @@ app.use('/todo', verify, todo)
 app.use('/auth', auth)
 app.use('/products', products)
 
-const PORT = process.env.PORT || 4000;
-app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
+// const PORT = process.env.PORT || 4000;
+// app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
